@@ -1,3 +1,12 @@
+/**
+ * This command reveals updates royalty percentages for mutable NFTs
+ *
+ * TO RUN:
+ *      npm run update {path to hash file} {new royalty amount} {new creator address};{new creator share}
+ *
+ * The data file is a JSON file that looks like this:
+ *      [mint1, mint2, mint3...]
+ */
 import fs from "fs";
 import { assert } from "console";
 import * as anchor from "@project-serum/anchor";
