@@ -44,7 +44,7 @@ if (creator) {
   };
 }
 
-const MAX_IX = 10;
+const MAX_IX = 5;
 const SLEEP_TIME = 100;
 
 // RPC URL and connection
